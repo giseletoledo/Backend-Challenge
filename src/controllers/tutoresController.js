@@ -1,3 +1,4 @@
+import NaoEncontrado from "../erros/NaoEncontrado.js";
 import tutores from "../models/Tutor.js";
 
 class TutorController {
@@ -20,7 +21,7 @@ class TutorController {
             if (tutorResultado !== null) {
                 res.status(200).send(tutorResultado);
             } else {
-                res.status(404).send({ message: `${err.message} - Id do Tutor não localizado.` })
+                next(new NaoEncontrado("Id do tutor não encontrado."))
             }
 
         } catch (erro) {
@@ -43,27 +44,35 @@ class TutorController {
     }
 
     static atualizarTutor = async (req, res, next) => {
-        const id = req.params.id;
-
-        await tutores.findByIdAndUpdate(id, {$set: req.body})
-
         try {
-            res.status(200).send({ message: 'Tutor atualizado com sucesso' })
+            const id = req.params.id;
+
+            const tutorResultado = await tutores.findByIdAndUpdate(id, { $set: req.body });
+
+            if (tutorResultado !== null) {
+                res.status(200).send({ message: 'Tutor atualizado com sucesso' });
+            } else {
+                next(new NaoEncontrado("Id do tutor não encontrado."));
+            }
         } catch (erro) {
             next(erro)
         }
     }
 
     static excluirTutor = async (req, res, next) => {
-       try {
-         const id = req.params.id;
- 
-         await tutores.findByIdAndDelete(id);
-         
-                 res.status(200).send({ message: 'Tutor removido com sucesso' })
-       } catch (erro) {
-        next(erro)
-       }
+        try {
+            const id = req.params.id;
+
+            const tutorResultado = await tutores.findByIdAndDelete(id);
+
+            if (tutorResultado !== null) {
+                res.status(200).send({ message: 'Tutor removido com sucesso' })
+            } else {
+                next(new NaoEncontrado("Id do tutor não encontrado."));
+            }
+        } catch (erro) {
+            next(erro)
+        }
     }
 }
 
