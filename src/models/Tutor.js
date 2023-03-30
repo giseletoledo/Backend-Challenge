@@ -4,10 +4,22 @@ const tutorSchema = new mongoose.Schema(
   {
     id: {type: String},
     foto: {type: String},
-    nome: {type: String, required: true},
-    telefone: {type: String, required: true},
-    cidade: {type: String, required: true},
-    sobre: {type: String, required: true},
+    nome: {
+        type: String,
+        required: [true, "O nome do(a) tutor(a) é obrigatório"]
+    },
+    telefone: {
+        type: String,
+        required: [true, "O telefone do(a) tutor(a) é obrigatório"]
+    },
+    cidade: {
+        type: String,
+        required: [true, "A cidade do(a) tutor(a) é obrigatório"]
+    },
+    sobre: {
+        type: String,
+        required: [true, "A descrição do(a) tutor(a) é obrigatório"]
+    },
   },
   {
     versionKey: false
