@@ -1,5 +1,6 @@
 import express from "express";
 import tutores from "./tutoresRoutes.js"
+import abrigos from "./abrigosRoutes.js"
 
 const routes = (app) => {
   app.route('/').get((req, res) => {
@@ -8,7 +9,8 @@ const routes = (app) => {
 
   app.use(
     express.json(),
-    tutores
+    tutores,
+    abrigos
   )
 }
 

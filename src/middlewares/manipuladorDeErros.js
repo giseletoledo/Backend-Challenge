@@ -4,7 +4,6 @@ import ErroValidacao from "../erros/ErroValidacao.js";
 import NaoEncontrado from "../erros/NaoEncontrado.js";
 import RequisicaoIncorreta from "../erros/RequisicaoIncorreta.js";
 
-// eslint-disable-next-line no-unused-vars
 function manipuladorDeErros (erro, req, res, next) {
   if (erro instanceof mongoose.Error.CastError) {
     new RequisicaoIncorreta().enviarResposta(res);
