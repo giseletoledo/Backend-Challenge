@@ -19,14 +19,13 @@
 | GET | /abrigos/:id | Retorna o abrigo com o ID especificado |
 | PUT/PATCH | /abrigos/:id | Atualiza o abrigo com o ID especificado |
 | DELETE | /abrigos/:id | Deleta o abrigo com o ID especificado |
-| POST | /abrigos/:id | Adiciona um novo animal ao abrigo especificado |
+| POST | /abrigos/:id | Adiciona um novo abrigo |
 | GET | /pets | Retorna a lista de todos os pets |
 | GET | /pets/:id | Retorna o pet com o ID especificado |
+| POST | /pets/:id | Adiciona um novo animal ao abrigo especificado |
 | PUT/PATCH | /pets/:id | Atualiza o pet com o ID especificado |
 | DELETE | /pets/:id | Deleta o pet com o ID especificado |
 | POST | /adocao | Cria uma nova adoção |
-| GET | /adocao | Retorna a lista de todas as adoções |
-| GET | /adocao/:id | Retorna a adoção com o ID especificado |
 | DELETE | /adocao/:id | Deleta a adoção com o ID especificado |
 
 <p>
