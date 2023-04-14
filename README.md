@@ -30,8 +30,8 @@
 | DELETE | /adocao/:id | Deleta a adoção com o ID especificado |
 
 <p>
-<img width="30%" src="https://github.com/giseletoledo/backend-challenge-nodejs/blob/main/screenshots/postman_pet_post.png"/>
-<img width="30%" src="https://github.com/giseletoledo/backend-challenge-nodejs/blob/main/screenshots/remocao_pet.png"/>
+<img width="45%" src="https://github.com/giseletoledo/backend-challenge-nodejs/blob/main/screenshots/postman_pet_post.png"/>
+<img width="45%" src="https://github.com/giseletoledo/backend-challenge-nodejs/blob/main/screenshots/remocao_pet.png"/>
 </p>
 
 
