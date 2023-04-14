@@ -51,12 +51,9 @@ class UsuariosController {
   }
   
   static async cadastrarUsuario(req, res, next) {
-    console.log(req);
     try {
       const usuario = new usuarios(req.body);
       const usuarioResultado = await usuario.save();
-
-      console.log(usuario)
 
       res.status(201).json(usuario.toJSON());
     } catch (erro) {

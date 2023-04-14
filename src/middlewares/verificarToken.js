@@ -7,7 +7,8 @@ export function verificarToken(req, res, next) {
     return res.status(401).json({ mensagem: "Token não fornecido." });
   }
 
-  jwt.verify(token, process.env.SECRET_KEY, (err, decoded) => {
+  jwt.verify(token, process.env.MEU_SEGREDO, (err, decoded) => {
+
     if (err) {
       return res.status(401).json({ mensagem: "Token inválido." });
     }
