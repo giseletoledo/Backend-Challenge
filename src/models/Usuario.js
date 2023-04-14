@@ -2,9 +2,9 @@ import mongoose from "mongoose";
 import bcrypt from "bcrypt";
 
 const usuarioSchema = new mongoose.Schema({
-  login: { 
+  email: { 
     type: String, 
-    required: [true, "O login é obrigatório"]
+    required: [true, "O email é obrigatório"]
  },
   senha: { 
     type: String, 

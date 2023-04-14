@@ -1,6 +1,9 @@
 import express from "express";
 import tutores from "./tutoresRoutes.js"
 import abrigos from "./abrigosRoutes.js"
+import pets from "./petsRoutes.js"
+import adocoes from "./adocoesRoutes.js"
+import login from "./loginRoutes.js"
 
 const routes = (app) => {
   app.route('/').get((req, res) => {
@@ -10,7 +13,10 @@ const routes = (app) => {
   app.use(
     express.json(),
     tutores,
-    abrigos
+    abrigos,
+    pets,
+    adocoes,
+    login
   )
 }
 
