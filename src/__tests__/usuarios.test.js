@@ -4,7 +4,7 @@ import app from '../app';
 import UsuariosController from '../controllers/UsuariosController';
 
 
-describe("Testes de integração para a rota GET /abrigos", () => {
+describe("Testes para a rota GET /abrigos", () => {
   it("Deve retornar todos os abrigos com status 200", async () => {
     // Chama o método listarAbrigos do controlador
     const mockResult = [
