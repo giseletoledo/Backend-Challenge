@@ -20,8 +20,6 @@ class LoginController {
           }
       
           const token = jwt.sign({ usuarioId: usuario._id, tipo: usuario.tipo }, process.env.MEU_SEGREDO, { expiresIn: '1h'});
-          
-          console.log(token,usuario.tipo)
          
           res.status(200).json({ token: token });
         } catch (err) {
