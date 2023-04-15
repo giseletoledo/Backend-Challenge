@@ -7,6 +7,15 @@
 
 [Figma](https://www.figma.com/file/TlfkDoIu8uyjZNla1T8TpH/Challenge---Adopet?node-id=518-11&t=S6FjzyI1Jy0DBVpI-0)
 
+### Documentação gerada com Postman
+
+[Usuários](https://documenter.getpostman.com/view/10265749/2s93XyTNG8#b3861b0f-6937-4c97-ae30-e84abcb5c16d)
+
+[Pets](https://documenter.getpostman.com/view/10265749/2s93XyTNGB)
+
+[Adocao](https://documenter.getpostman.com/view/10265749/2s93XyTNQy)
+
+
 | Método | Endpoint | Descrição |
 | --- | --- | --- |
 | GET | /tutores | Retorna a lista de todos os tutores |
@@ -25,6 +34,7 @@
 | POST | /pets/:id | Adiciona um novo animal ao abrigo especificado |
 | PUT/PATCH | /pets/:id | Atualiza o pet com o ID especificado |
 | DELETE | /pets/:id | Deleta o pet com o ID especificado |
+| GET | /adocao | Retorna a lista de todas as adoções *não exigido no challenge |
 | POST | /adocao | Cria uma nova adoção |
 | DELETE | /adocao/:id | Deleta a adoção com o ID especificado |
 
