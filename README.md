@@ -9,6 +9,11 @@
 
 ### Documentação gerada com Postman
 
+<p>
+<img width="45%" src="https://github.com/giseletoledo/backend-challenge-nodejs/blob/main/screenshots/postman_pet_post.png"/>
+<img width="45%" src="https://github.com/giseletoledo/backend-challenge-nodejs/blob/main/screenshots/remocao_pet.png"/>
+</p>
+
 [Usuários](https://documenter.getpostman.com/view/10265749/2s93XyTNG8#b3861b0f-6937-4c97-ae30-e84abcb5c16d)
 
 [Pets](https://documenter.getpostman.com/view/10265749/2s93XyTNGB)
@@ -38,10 +43,7 @@
 | POST | /adocao | Cria uma nova adoção |
 | DELETE | /adocao/:id | Deleta a adoção com o ID especificado |
 
-<p>
-<img width="45%" src="https://github.com/giseletoledo/backend-challenge-nodejs/blob/main/screenshots/postman_pet_post.png"/>
-<img width="45%" src="https://github.com/giseletoledo/backend-challenge-nodejs/blob/main/screenshots/remocao_pet.png"/>
-</p>
+
 
 
 
