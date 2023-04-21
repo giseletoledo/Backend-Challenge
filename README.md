@@ -10,12 +10,12 @@
 | :fire: Desafio     | [Figma](https://www.figma.com/file/TlfkDoIu8uyjZNla1T8TpH/Challenge---Adopet?node-id=518-11&t=S6FjzyI1Jy0DBVpI-0)
 
 
-### Documentação gerada com Postman
-
 <p>
 <img width="45%" src="https://github.com/giseletoledo/backend-challenge-nodejs/blob/main/screenshots/postman_pet_post.png"/>
 <img width="45%" src="https://github.com/giseletoledo/backend-challenge-nodejs/blob/main/screenshots/remocao_pet.png?text=imagem+do+postman#vitrinedev"/>
 </p>
+
+## Detalhes do projeto
 
 [Usuários](https://documenter.getpostman.com/view/10265749/2s93XyTNG8#b3861b0f-6937-4c97-ae30-e84abcb5c16d)
 
