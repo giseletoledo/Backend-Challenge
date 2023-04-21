@@ -13,8 +13,7 @@ export async function verificarTipoUsuario(req, res, next)  {
         if (!usuario || usuario.tipo !== 'Abrigo') { // verifica se o usuário é do tipo Abrigo
             return res.status(403).json({ mensagem: 'Usuário não autorizado' });
           }
-          next();   
-     
+          next();      
   }
   
 
