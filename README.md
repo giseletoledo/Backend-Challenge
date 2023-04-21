@@ -10,12 +10,7 @@
 | :fire: Desafio     | [Figma](https://www.figma.com/file/TlfkDoIu8uyjZNla1T8TpH/Challenge---Adopet?node-id=518-11&t=S6FjzyI1Jy0DBVpI-0)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
-
-<p>
-<img width="45%" src="https://github.com/giseletoledo/backend-challenge-nodejs/blob/main/screenshots/postman_pet_post.png"/>
-<img width="45%" src="https://github.com/giseletoledo/backend-challenge-nodejs/blob/main/screenshots/remocao_pet.png?text=imagem+do+postman#vitrinedev"/>
-</p>
+![](https://github.com/giseletoledo/backend-challenge-nodejs/blob/main/screenshots/postman_pet_post.png?text=imagem+do+meu+projeto#vitrinedev)
 
 ## Detalhes do projeto
 
