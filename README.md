@@ -1,11 +1,14 @@
 # Backend Challenge Adopet 
 
-- Linguagem Javascript
-- NodeJS
-- ExpressJS
-- Mongodb
+6ª edição do backend challenge, criando uma API para cadastrar usuários que podem ser tutores ou abrigos, que acessam dados de pets para serem adotados.
 
-[Figma](https://www.figma.com/file/TlfkDoIu8uyjZNla1T8TpH/Challenge---Adopet?node-id=518-11&t=S6FjzyI1Jy0DBVpI-0)
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Adopet**
+| :label: Tecnologias | javascript, nodejs, expressjs, mongodb (tecnologias utilizadas)
+| :rocket: URL         | [Usuários](https://documenter.getpostman.com/view/10265749/2s93XyTNG8#b3861b0f-6937-4c97-ae30-e84abcb5c16d)
+| :fire: Desafio     | [Figma](https://www.figma.com/file/TlfkDoIu8uyjZNla1T8TpH/Challenge---Adopet?node-id=518-11&t=S6FjzyI1Jy0DBVpI-0)
+
 
 ### Documentação gerada com Postman
 
